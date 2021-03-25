@@ -1,3 +1,4 @@
+import { TemaComponent } from './tema/tema.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
@@ -10,8 +11,8 @@ const routes: Routes = [
 
   {path: 'entrar', component: EntrarComponent},
   {path: 'cadastrar', component: CadastrarComponent},
-  {path: 'inicio', component: InicioComponent}
-
+  {path: 'inicio', component: InicioComponent},
+  {path: 'tema', component: TemaComponent}
 ];
 
 @NgModule({
