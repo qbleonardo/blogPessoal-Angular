@@ -16,6 +16,7 @@ import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,7 @@ import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component'
     InicioComponent,
     TemaComponent,
     TemaEditComponent,
-    TemaDeleteComponent
+    TemaDeleteComponent,
   ],
   imports: [
     BrowserModule,
